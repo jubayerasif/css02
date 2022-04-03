@@ -1,0 +1,112 @@
+*
+{
+    background: rgb(230,100,101);
+    background: linear-gradient(90deg, rgba(230,100,101,1) 11%, rgba(145,152,229,1) 84%);    
+text-align: center;
+}
+
+.home-h1
+{
+    color: white;
+    background: aqua;
+    font-size: 55px;
+}
+.home-pera
+{
+    color: white;
+    background: aqua;
+    font-size: 354;
+}
+
+
+.div-1, .div-2, .div-3, .div-4, .div-5, .div-6
+{
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 10px;
+    transform: 3s;
+
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -o-transition: 3s;
+    -ms-transition: 3s;
+}
+
+.div-1
+{
+    background: linear-gradient(90deg, rgba(145,229,229,1) 0%, rgba(230,100,101,1) 100%);
+    transition: 3s width;
+}
+.div-1:hover
+{
+    width: 300px;
+    border-radius: 30px;
+    background: lightgray;
+    color: #000000;
+}
+
+.div-2
+{  
+    background: linear-gradient(90deg, rgba(70,213,109,1) 0%, rgba(230,100,101,1) 100%);
+    transition: 3s height;
+}
+.div-2:hover
+{
+    height: 300px;
+    border-radius: 20px;
+    background: lightgoldenrodyellow;
+}
+
+.div-3
+{
+    background: linear-gradient(90deg, rgba(36,24,212,1) 0%, rgba(230,100,101,1) 100%);
+    transition: 3s all;
+}
+.div-3:hover
+{
+    width: 300px;
+    height: 300px;
+    background: lightgoldenrodyellow;
+    border-radius: 90%;
+}
+
+.div-4{
+    background: linear-gradient(90deg, rgba(237,237,0,1) 0%, rgba(230,100,101,1) 100%);
+}
+.div-4:hover
+{
+    width: 300px;
+    height: 300px;
+    background: greenyellow;
+    border-radius: 50%;
+    transform: scale(1.5);
+}
+
+.div-5
+{
+    background: linear-gradient(90deg, rgba(126,255,105,1) 0%, rgba(230,100,101,1) 100%);
+}
+.div-5:hover
+{
+    width: 300px;
+    height: 300px;
+    background: darkmagenta;
+    border-radius: 50%;
+    transform: rotate(80deg);
+}
+
+.div-6
+{
+    background: linear-gradient(90deg, rgba(198,67,208,1) 0%, rgba(230,100,101,1) 100%);
+}
+.div-6:hover
+{
+    width: 300px;
+    height: 300px;
+    background: lightsalmon;
+    border-radius: 50%;
+    transform: skew(40deg);
+}
